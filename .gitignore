@@ -1,0 +1,36 @@
+# Composer
+vendor/
+/composer.lock
+
+# Laravel or Symfony specific
+/bootstrap/cache/
+/storage/
+
+# Cache and logs
+*.log
+*.cache
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Node.js (nếu sử dụng npm hoặc Yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# PHPUnit
+.phpunit.result.cache
+
+# Environment files
+.env
+.env.*
